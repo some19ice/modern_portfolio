@@ -45,7 +45,7 @@ header {
 }
 
 .text-secondary {
-  color: $secondary-color;
+  color: darken($secondary-color, 7);
 }
 
 main {
