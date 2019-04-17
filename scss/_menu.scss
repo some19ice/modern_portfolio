@@ -12,7 +12,8 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: rgb(226, 65, 154);
+    background: set-text-color($primary-color);
+    // background: rgb(226, 65, 154);
     @include easeOut;
   }
 
@@ -93,7 +94,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait-edit.jpg);
+      background: url(../img/portrait.jpg);
       background-size: cover;
       border-radius: 50%;
       border: solid 3px $secondary-color;
