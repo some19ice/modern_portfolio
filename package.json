@@ -5,10 +5,12 @@
   "main": "index.js",
   "homepage": "https://some19ice.github.io/modern_portfolio",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
   },
   "devDependencies": {},
   "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
